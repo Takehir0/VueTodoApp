@@ -1,0 +1,63 @@
+body {
+  font-size: 24px;
+  font-family: Verdana, sans-serif;
+  background-color: rgb(85, 161, 199);
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  position: relative;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+#app h1 {
+  font-size: 30px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+#app li {
+  line-height: 1.5;
+}
+
+#app input[type="text"] {
+  padding: 2px;
+}
+
+.command {
+  font-size: 12px;
+  cursor: pointer;
+  color: #08c;
+}
+
+#app ul {
+  padding: 0;
+  list-style: none;
+}
+
+#app li> span.done {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.info {
+  color: #BBB;
+  font-size: 12PX;
+  font-weight: normal;
+}
+
+#app h1 > button {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}
+
+#purge {
+  margin-top: 13px;
+}
